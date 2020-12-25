@@ -1,0 +1,8 @@
+site_name: My Docs
+theme:
+  name: material
+  palette:
+    scheme: milk-cr8
+  logo: assets/logo.png
+extra_css:
+  - stylesheets/extra.css
