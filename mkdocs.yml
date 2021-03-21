@@ -3,6 +3,7 @@ theme:
   name: material
   palette:
     scheme: milk-cr8
-  logo: assets/logo.png
+  icon:
+    logo: material/cube-outline
 extra_css:
   - stylesheets/extra.css
