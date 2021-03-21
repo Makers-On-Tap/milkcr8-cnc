@@ -4,6 +4,18 @@
     --md-primary-fg-color--dark:  #90030C;
   }
 .md-header-nav__button.md-logo {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 5px;
+}
+.md-header-nav__button.md-logo img {
+  height: 3rem;
+  width: 3rem;
+  display: block;
+  fill: currentColor;
+}
+.md-header-nav__button.md-logo svg {
+  height: 3rem;
+  width: 3rem;
+  display: block;
+  fill: currentColor;
 }
