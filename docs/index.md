@@ -1,17 +1,9 @@
-# Welcome to MkDocs
+# Welcome to the MilkCrate CNC Project!
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This site contains all the info and instructions you'll need to build your own desktop CNC mill!
 
-## Commands
+If you're new to the project, check out the [About](about.md) page to learn the backstory of the MilkCrate CNC.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+If you have some questions about it, check out our [FAQ](faq.md) page! Your question is most likely answered there.
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Development and discussion of the project is done in the Makers On Tap Podcast Discord server.

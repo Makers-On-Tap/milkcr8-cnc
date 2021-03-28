@@ -7,3 +7,10 @@ theme:
     logo: material/cube-outline
 extra_css:
   - stylesheets/extra.css
+nav:
+    - Home: 'index.md'
+    - About: 'about.md'
+    - FAQ: 'faq.md'
+    - BOM: 'bom.md'
+    - Print Settings: 'printing.md'
+    - Assembly: 'assembly.md'
