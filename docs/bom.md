@@ -1,5 +1,5 @@
 # Bill of Materials
-Current BOM can be found in this [read only Google Sheet](https://docs.google.com/spreadsheets/d/1ViruGe-mIjATBrFZ_2N3Xh3YK8Kv0xZOzpvj6fFhka0/edit?usp=sharing). The BOM is considered stable and safe to order from.
+Current BOM can be found in this [read only Google Sheet](https://docs.google.com/spreadsheets/d/1ViruGe-mIjATBrFZ_2N3Xh3YK8Kv0xZOzpvj6fFhka0/edit?usp=sharing). The BOM is considered semi-stable and but safe to order from.
 
 # Source files and STL's
 All parts to be made can be found here https://github.com/Makers-On-Tap/milkcr8-cnc
