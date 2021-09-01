@@ -6,4 +6,4 @@ If you're new to the project, check out the [About](about.md) page to learn the 
 
 If you have some questions about it, check out our [FAQ](faq.md) page! Your question is most likely answered there.
 
-Development and discussion of the project is done in the Makers On Tap Podcast Discord server.
+Development and discussion of the project is done in the MilkCr8 CNC Discord server. https://discord.gg/qguQRYZAea
