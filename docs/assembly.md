@@ -57,7 +57,7 @@ M3x10 SHCS through Z nut to mount, Use holes in z motor mount to slip allen key 
 
 ![X_limit](./assets/images/screen_shots/x_limit_mount.png)
 
-![X Mounts](./assets/images/screen_shots/x_mounts.png)
+![X Mounts](./assets/images/screen_shots/X_mounts.png)
 
 Press mounts into the sides of the tube. Sometimes these need to be pounted in with a mallet  
 I usually use a 2x4 over the plastic to avoid breaking it  
@@ -98,9 +98,9 @@ Slide the X-Z Sub over the threaded rods all the way down. This can be a little 
 
 Punch drill and tap all holes
 
-![Y Axis Mounts](./assets/images/screen_shots/y_mounts.png)
+![Y Axis Mounts](./assets/images/screen_shots/Y_mounts.png)
 
-![Y Axis Box](./assets/images/screen_shots/y_axis_box.png)
+![Y Axis Box](./assets/images/screen_shots/Y_axis_box.png)
 
 M5x25 SHCS in the middle holes of the mounts.  
 
