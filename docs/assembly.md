@@ -32,15 +32,15 @@ Make sure lead nut is mounted now
 M4x12 SHCS to plate  
 M4 self tapping screws if using plastic plates
 
-![Z_leadnut](./assets/images/screen_shots/z_leadnut_mount.png)
+![Z_leadnut](./assets/images/screen_shots/Z_leadnut_mount.png)
 
 M4x12 SHCS to Z plate  
 
-![Z_rails](./assets/images/screen_shots/z_rails.png)
+![Z_rails](./assets/images/screen_shots/Z_rails.png)
 
 M3x10 SHCS to plate  
 
-![Z_bearings](./assets/images/screen_shots/z_bearings.png)
+![Z_bearings](./assets/images/screen_shots/Z_bearings.png)
 
 Put all z bearings on rails  
 
@@ -49,7 +49,7 @@ Put all z bearings on rails
 Put spacers over bearings  
 Drill out the bolt holes if needed to make sure the bolts slip through cleanly  
 
-![Z_plate](./assets/images/screen_shots/z_plate.png)
+![Z_plate](./assets/images/screen_shots/Z_plate.png)
 ![Z_leadnut](./assets/images/img/xz_sub5.jpg)
 
 M3x10 SHCS to hearing blocks 
