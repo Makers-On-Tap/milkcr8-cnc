@@ -1,6 +1,13 @@
 # Assembly
 
+## Table of Contents
+
+(Tapping and Assembling the X and Z Axis Assembly)[## X and Z axis Sub]
+
+
 ## X and Z axis Sub
+
+Tap 
 
 ![x_jig](./assets/images/screen_shots/x_jig.png)
 
