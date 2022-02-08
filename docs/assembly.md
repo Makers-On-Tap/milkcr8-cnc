@@ -7,9 +7,21 @@
 
 ## X and Z axis Sub
 
-Tap 
+### Punch, Drill and Tap the X-Axis 
 
 ![x_jig](./assets/images/screen_shots/x_jig.png)
+
+Take a look at your 4x1.5x18" steel tube and see if one side is flatter along the 4" length than the other.
+
+If one side is noticeably flatter, set up your printed X-Axis jigs and linear rails on that side. 
+
+We recommend using a transfer punch to make a light mark for each of the holes, and then enlarging those holes slightly with a center punch. 
+
+Drill all 16 holes for each rail, and tap with an M3 0.5 tap and plenty of tapping fluid. There is an M3 tap guide in the jigs folder on the github to help keep the tap straight. You may have to adjust the scale slightly depending on the settings and nozzle size on your 3D printer.
+
+At this point, you can start screwing down your rails to the tube with M3x10 SHCS and check if the rails are flat. It's not uncommon for the rails to both be tilted in toward the center of the axis. If this is the case (or if they are otherwise out of parallel with each other)
+
+If you need to level the rails, check out the (shimming)[shimming.md] guide.
 
 ![x_bearings](./assets/images/screen_shots/X_bearings.png)
 
