@@ -6,7 +6,7 @@
 
 
 ## X and Z axis Sub
-{: #xz-sub}
+(#xz-sub)
 
 Tap 
 
