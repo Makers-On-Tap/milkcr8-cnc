@@ -2,10 +2,11 @@
 
 ## Table of Contents
 
-(Tapping and Assembling the X and Z Axis Assembly)[## X and Z axis Sub]
+(Tapping and Assembling the X and Z Axis Assembly)[#xz]
 
 
 ## X and Z axis Sub
+{: #xz}
 
 Tap 
 
