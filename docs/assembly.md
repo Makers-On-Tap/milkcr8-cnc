@@ -71,7 +71,7 @@ Drill out the bolt holes if needed to make sure the bolts slip through cleanly
 ![Z_plate](./assets/images/screen_shots/Z_plate.png)
 ![Z_leadnut](./assets/images/img/xz_sub5.jpg)
 
-M3x10 SHCS to hearing blocks 
+M3x10 SHCS to bearing blocks 
 M3x10 SHCS through Z nut to mount, Use holes in z motor mount to slip allen key through and access bolts
 
 ![X_limit](./assets/images/screen_shots/x_limit_mount.png)
