@@ -83,6 +83,8 @@ I usually use a 2x4 over the plastic to avoid breaking it
 
 ## Cr8 Start
 
+Check the length of your X-tube. Midwest Steel has a tendency to cut the tubes 1/8" long. So you'll either need to file that down, or increase the width of the front, back, top, and bottom by 1/8" to compensate. 
+
 ![Cross Dowel](./assets/images/img/cross_dowel.jpg)
 
 Press the jig into large holes in the frame to align your side drills  
