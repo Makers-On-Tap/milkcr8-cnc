@@ -2,7 +2,18 @@
 
 ## Table of Contents
 
+[Prep Work](#Prep-Work)
 [Tapping and Assembling the X and Z Axis Assembly](#x-and-z-axis-sub)
+[Making the Cr8](#Cr8-Start)
+[Y Axis Start](#Y-Axis-Start)
+[Window](#window)
+[Spindle Mount](#Spindle-mount)
+
+## Prep Work
+
+3d-print all your 3D printed parts per the [instructions](printing.md)
+
+Make sure you have two of all the jigs marked 2x in the Fusion360 Project. Pre-drill all the holes. Most can be predrilled with a 1/4" bit. Use an 1/8" bit for smaller holes. The only holes that should be pre-drilled smaller than 1/8" are for the M2 screws that hold in the limit switches.
 
 
 ## X and Z axis Sub
@@ -101,7 +112,7 @@ Put lock washer, and nuts on the side of 2 threaded rods
 
 Put through the X holes  
 
-Lie the Box on its side
+Lie the Cr8 on its side
 
 ![X Cr8 ](./assets/images/screen_shots/X_cr8.png)
 
@@ -159,7 +170,7 @@ Slide the shaft collar and one M8 washer onto the leadscrew and then slide the l
 
 On the inside of the thrust block, slide the thrust bearing stack onto the lead screw and then tighten the coupler onto the lead screw.
 
-4- M3x50 SHCS to bolt through the thrust block to the motor
+4 - M3x50 SHCS to bolt through the thrust block to the motor
 
 Pull the lead screw away from the motor and press the shaft collar against the thrust block while tightening the set screw. - the goal is to remove the possibility for axial play. 
 
@@ -201,4 +212,4 @@ add the 4 90 brackets to the top and bottom of the mount and tramp plate
 
 Use 4 M5x16 bolts to bolt the tram plate to the z plate. 
 
-    - one of the 4 M5 holes is on size and the other 3 are overside to allow for small adjustments of tilt on the spindle
+One of the 4 M5 holes is on size and the other 3 are overside to allow for small adjustments of tilt on the spindle
