@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-(Tapping and Assembling the X and Z Axis Assembly)[#xz-sub]
+[Tapping and Assembling the X and Z Axis Assembly](#xz-sub)
 
 
 ## X and Z axis Sub
