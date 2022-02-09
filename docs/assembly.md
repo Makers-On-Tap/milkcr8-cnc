@@ -11,7 +11,7 @@
 
 ## Prep Work
 
-3d-print all your 3D printed parts per the [instructions](printing.md)
+3d-print all your 3D printed parts per the [instructions](printing.md).
 
 Make sure you have two of all the jigs marked 2x in the Fusion360 Project. Pre-drill all the holes. Most can be predrilled with a 1/4" bit. Use an 1/8" bit for smaller holes. The only holes that should be pre-drilled smaller than 1/8" are for the M2 screws that hold in the limit switches.
 
@@ -30,67 +30,65 @@ We recommend using a transfer punch to make a light mark for each of the holes, 
 
 Drill all 16 holes for each rail, and tap with an M3 0.5 tap and plenty of tapping fluid. There is an M3 tap guide in the jigs folder on the github to help keep the tap straight. You may have to adjust the scale slightly depending on the settings and nozzle size on your 3D printer.
 
-At this point, you can start screwing down your rails to the tube with M3x10 SHCS and check if the rails are flat. It's not uncommon for the rails to both be tilted in toward the center of the axis. If this is the case (or if they are otherwise out of parallel with each other)
-
-If you need to level the rails, check out the (shimming)[shimming.md] guide.
+At this point, you can start screwing down your rails to the tube with M3x10 SHCS and check if the rails are flat. It's not uncommon for the rails to both be tilted in toward the center of the axis. If this is the case (or if they are otherwise out of parallel with each other) check out the [shimming](shimming.md) guide.
 
 ![x_bearings](./assets/images/screen_shots/X_bearings.png)
 
 ![x_z_plate](./assets/images/screen_shots/x_z_plate.png)
 
-M3x10 SHCS to bolt to carriage  
+Use 16 M3x10 SHCS to bolt the Z to X Plate to the carriage.  
 
 ![x_leadnut](./assets/images/screen_shots/xleadnut_mount.png)
 
-M3 nuts pressed into mount  
-M3x12 SHCS to bolt to plate
+M3 nuts pressed into X Lead Nut mount.
+M3x12 SHCS to bolt the X Lead Nut to Z to X plate.
 
 
 ![Z_limit](./assets/images/screen_shots/z_limit.png)
 
-M2x12mm bolts  
-Solder wires before bolting  
-Run wire through slot  
+M2x12mm bolts to attach the limit switch to the Z Linear Motor Mount. You cannot attach the limit switch once the Z Motor Mount is attached to the Z to X Plate.
+Solder wires before bolting. The "Normally Closed" (NC) configuration is recommended for best safety practices.
+Run wire for the Z limit switch through slot in the Z Linear Motor Mount. 
 
 ![Z_motor](./assets/images/screen_shots/zmotor.png)
 
-M3x10 screws into motor  
-Make sure lead nut is mounted now
+M3x10 screws into motor, through the Z Linear Motor Mount. You cannot attach the Z Motor after the Linear Motor Mount is attached to the Z to X Plate.  
+Make sure lead nut is mounted now, it's a real pain to mount it later. 
 
 ![Z_motor_mount](./assets/images/screen_shots/zmotor_mount.png)
 
-M4x12 SHCS to plate  
-M4 self tapping screws if using plastic plates
+M4x12 SHCS to through the Z Linear Motor Mount to the Z to X Plate  
+Use M4 self tapping screws if using plastic plates
 
 ![Z_leadnut](./assets/images/screen_shots/Z_leadnut_mount.png)
 
-M4x12 SHCS to Z plate  
+Use M4x12 SHCS to attach the Z Lead Nut Mount to the Z Plate.
+Insert M5 nylock nuts into the Z Plate now. It is impossible to insert these once the Z Plate is mounted on the carriage. If they are loose, you can hold them in place with M5 screws until you attach the tram plate and router mount.
 
 ![Z_rails](./assets/images/screen_shots/Z_rails.png)
 
-M3x10 SHCS to plate  
+Use M3x10 SHCS, or M3 self-tapping screws to attach the Z Linear Rails to the Z Plate.
 
 ![Z_bearings](./assets/images/screen_shots/Z_bearings.png)
 
-Put all z bearings on rails  
+Put two Z bearings on each Z rail.
 
 ![Z_spacer](./assets/images/screen_shots/z_spacer.png)
 
-Put spacers over bearings  
-Drill out the bolt holes if needed to make sure the bolts slip through cleanly  
+Put 1 Z Spacer over each set of bearings.
+Drill out the bolt holes if needed to make sure the M3 bolts slip through cleanly  
 
 ![Z_plate](./assets/images/screen_shots/Z_plate.png)
+
+Use M3x10 SHCS attach the Z Plate to the bearing blocks through the spacers.
+
 ![Z_leadnut](./assets/images/img/xz_sub5.jpg)
 
-M3x10 SHCS to bearing blocks 
-M3x10 SHCS through Z nut to mount, Use holes in z motor mount to slip allen key through and access bolts
+Use M3x10 SHCS tp attach the Z Lead Nut Mount to the Z Plate. Use the holes in Z Linear Motor Mount to slip allen key through and access bolts. You may have to rotate the lead screw to properly align the Z Lead Nut Mount in order to screw in the bolts.
 
 ![X_limit](./assets/images/screen_shots/x_limit_mount.png)
 
-![X Mounts](./assets/images/screen_shots/X_mounts.png)
-
-Press mounts into the sides of the tube. Sometimes these need to be pounted in with a mallet  
-I usually use a 2x4 over the plastic to avoid breaking it  
+Solder the wires to the X limit switch and attach the X limit switch to the X Tube Left Idler with M2 screws. Do not attach the left X Tube Left Idlder to the X Tube at this time.
 
 ## Cr8 Start
 
@@ -116,7 +114,13 @@ Lie the Cr8 on its side
 
 ![X Cr8 ](./assets/images/screen_shots/X_cr8.png)
 
-Slide the X-Z Sub over the threaded rods all the way down. This can be a little fiddly but this is the easiest way.  
+Attach the X Tube Right Motor Cap to the right side of the X Tube. Sometimes these need to be pounted in with a mallet, if it's tight, use a 2x4 over the plastic to avoid damaging it.
+
+Slide the X-Z Sub-Assembly over the threaded rods all the way down. This can be a little fiddly but this is the easiest way. Thread the threaded rod through the X Tube Left Idler cap over the X Tube, use the 2x4 and mallet method to secure it.
+
+![X Mounts](./assets/images/screen_shots/X_mounts.png)
+
+Attach the left side of the Cr8. Add a lock washer and nut to each threaded rod on the left side. 
 
 ![Cr8 Side 2 ](./assets/images/screen_shots/side_2.png) 
 
