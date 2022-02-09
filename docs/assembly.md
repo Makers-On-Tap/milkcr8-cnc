@@ -2,12 +2,14 @@
 
 ## Table of Contents
 
-[Prep Work](#Prep-Work)
-[Tapping and Assembling the X and Z Axis Assembly](#x-and-z-axis-sub)
-[Making the Cr8](#Cr8-Start)
-[Y Axis Start](#Y-Axis-Start)
-[Window](#window)
-[Spindle Mount](#Spindle-mount)
+* [Prep Work](#Prep-Work)
+	* [Tapping and Assembling the X and Z Axis Assembly](#x-and-z-axis-sub)
+	* [Assembling to the X and Z Axes](#Assembling-to-the-X-and-Z-Axes)
+* [Making the Cr8](#Cr8-Start)
+	* [Cr8 Assembly](#Cr8-Assembly)
+* [Y Axis Start](#Y-Axis-Start)
+* [Window](#window)
+* [Spindle Mount](#Spindle-mount)
 
 ## Prep Work
 
@@ -33,6 +35,8 @@ Drill all 16 holes for each rail, and tap with an M3 0.5 tap and plenty of tappi
 At this point, you can start screwing down your rails to the tube with M3x10 SHCS and check if the rails are flat. It's not uncommon for the rails to both be tilted in toward the center of the axis. If this is the case (or if they are otherwise out of parallel with each other) check out the [shimming](shimming.md) guide.
 
 ![x_bearings](./assets/images/screen_shots/X_bearings.png)
+
+### Assembling to the X and Z Axes
 
 ![x_z_plate](./assets/images/screen_shots/x_z_plate.png)
 
@@ -94,7 +98,11 @@ Solder the wires to the X limit switch and attach the X limit switch to the X Tu
 
 Check the length of your X-tube. Midwest Steel has a tendency to cut the tubes 1/8" long. So you'll either need to file that down, or increase the width of the front, back, top, and bottom by 1/8" to compensate. 
 
+A soft recommendation is to get the crate sides cut on a CNC. There are a lot of holes to drill and it's easier to get them all aligned if it's done by a computer. That said, there are also large format [PDFs](../Panel_Drawings/pdfs) to print and attach to the panels with spray adhesive that work as good guides. It's very possible to make it with hand-drilled holes in the crate, it's just harder.  
+
 ![Cross Dowel](./assets/images/img/cross_dowel.jpg)
+
+### Cr8 Assembly
 
 Press the jig into large holes in the frame to align your side drills  
 
