@@ -13,6 +13,8 @@
 
 ## Prep Work
 
+Read through all the directions before you start. You can batch out a few things, like drilling and tapping before you do assembly. Other items are more sensitive to order. We've tried to point that out when it may not be obvious. 
+
 3d-print all your 3D printed parts per the [instructions](printing.md).
 
 Make sure you have two of all the jigs marked 2x in the Fusion360 Project. Pre-drill all the holes. Most can be predrilled with a 1/4" bit. Use an 1/8" bit for smaller holes. The only holes that should be pre-drilled smaller than 1/8" are for the M2 screws that hold in the limit switches.
