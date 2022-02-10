@@ -44,8 +44,8 @@ Use 16 M3x10 SHCS to bolt the Z to X Plate to the carriages.
 
 ![x_leadnut](./assets/images/screen_shots/xleadnut_mount.png)
 
-M3 nuts pressed into X Lead Nut mount.
-M3x12 SHCS to bolt the X Lead Nut to Z to X plate.
+M3 nuts pressed into X Lead Nut Mount.
+M3x12 SHCS to bolt the X Lead Nut Mount to Z to X plate.
 
 
 ![Z_limit](./assets/images/screen_shots/z_limit.png)
