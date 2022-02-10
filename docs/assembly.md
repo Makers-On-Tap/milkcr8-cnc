@@ -124,7 +124,7 @@ Lie the crate on the right side, with the threaded rod, washer, and nuts off the
 
 ![X Cr8 ](./assets/images/screen_shots/X_cr8.png)
 
-Attach the X Tube Right Motor Cap to the right side of the X Tube. Sometimes the cap will need to be pounted in with a mallet, if it's tight, use a 2x4 over the plastic to avoid damaging it.
+Attach the X Tube Right Motor Cap to the right side of the X Tube. Sometimes the cap will need to be pounded in with a mallet, if it's tight, use a 2x4 over the plastic to avoid damaging it.
 
 Slide the X-Z Sub-Assembly over the threaded rods all the way down. This can be a little fiddly but this is the easiest way. Thread the threaded rod through the X Tube Left Idler cap, and then place the X Tube Left Idler cap over the open left end of the X Tube, use the 2x4 and mallet method to secure it.
 
