@@ -40,7 +40,7 @@ At this point, you can start screwing down your rails to the tube with M3x10 SHC
 
 ![x_z_plate](./assets/images/screen_shots/x_z_plate.png)
 
-Use 16 M3x10 SHCS to bolt the Z to X Plate to the carriage.  
+Use 16 M3x10 SHCS to bolt the Z to X Plate to the carriages.  
 
 ![x_leadnut](./assets/images/screen_shots/xleadnut_mount.png)
 
