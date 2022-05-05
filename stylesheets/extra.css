@@ -1,0 +1,12 @@
+/* old red theme 
+[data-md-color-scheme="milk-cr8"] {
+    --md-primary-fg-color:        #ed1c24;
+    --md-primary-fg-color--light: #ECB7B7;
+    --md-primary-fg-color--dark:  #90030C;
+  } */
+
+  [data-md-color-scheme="milk-cr8"] {
+    --md-primary-fg-color:        #47A8E5;
+    --md-primary-fg-color--light: #80d6ff;
+    --md-primary-fg-color--dark:  #0077c2;
+  }

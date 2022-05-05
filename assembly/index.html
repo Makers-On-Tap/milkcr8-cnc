@@ -1,0 +1,689 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.13">
+    
+    
+      
+        <title>Assembly - MilkCr8 CNC Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.e411adfe.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.cc9b2e1e.min.css">
+        
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="milk-cr8" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#assembly" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="MilkCr8 CNC Wiki" class="md-header__button md-logo" aria-label="MilkCr8 CNC Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16.5c0 .38-.21.71-.53.88l-7.9 4.44c-.16.12-.36.18-.57.18-.21 0-.41-.06-.57-.18l-7.9-4.44A.991.991 0 0 1 3 16.5v-9c0-.38.21-.71.53-.88l7.9-4.44c.16-.12.36-.18.57-.18.21 0 .41.06.57.18l7.9 4.44c.32.17.53.5.53.88v9M12 4.15 6.04 7.5 12 10.85l5.96-3.35L12 4.15M5 15.91l6 3.38v-6.71L5 9.21v6.7m14 0v-6.7l-6 3.37v6.71l6-3.38Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            MilkCr8 CNC Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Assembly
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="MilkCr8 CNC Wiki" class="md-nav__button md-logo" aria-label="MilkCr8 CNC Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16.5c0 .38-.21.71-.53.88l-7.9 4.44c-.16.12-.36.18-.57.18-.21 0-.41-.06-.57-.18l-7.9-4.44A.991.991 0 0 1 3 16.5v-9c0-.38.21-.71.53-.88l7.9-4.44c.16-.12.36-.18.57-.18.21 0 .41.06.57.18l7.9 4.44c.32.17.53.5.53.88v9M12 4.15 6.04 7.5 12 10.85l5.96-3.35L12 4.15M5 15.91l6 3.38v-6.71L5 9.21v6.7m14 0v-6.7l-6 3.37v6.71l6-3.38Z"/></svg>
+
+    </a>
+    MilkCr8 CNC Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faq/" class="md-nav__link">
+        FAQ
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bom/" class="md-nav__link">
+        BOM
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../printing/" class="md-nav__link">
+        Print Settings
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Assembly
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Assembly
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#table-of-contents" class="md-nav__link">
+    Table of Contents
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prep-work" class="md-nav__link">
+    Prep Work
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#x-and-z-axis-sub" class="md-nav__link">
+    X and Z axis Sub
+  </a>
+  
+    <nav class="md-nav" aria-label="X and Z axis Sub">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#punch-drill-and-tap-the-x-axis" class="md-nav__link">
+    Punch, Drill and Tap the X-Axis
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assembling-the-x-and-z-axes" class="md-nav__link">
+    Assembling the X and Z Axes
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cr8-start" class="md-nav__link">
+    Cr8 Start
+  </a>
+  
+    <nav class="md-nav" aria-label="Cr8 Start">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cr8-assembly" class="md-nav__link">
+    Cr8 Assembly
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#y-axis-start" class="md-nav__link">
+    Y Axis Start
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#window" class="md-nav__link">
+    Window
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#spindle-mount" class="md-nav__link">
+    Spindle mount
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#table-of-contents" class="md-nav__link">
+    Table of Contents
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prep-work" class="md-nav__link">
+    Prep Work
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#x-and-z-axis-sub" class="md-nav__link">
+    X and Z axis Sub
+  </a>
+  
+    <nav class="md-nav" aria-label="X and Z axis Sub">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#punch-drill-and-tap-the-x-axis" class="md-nav__link">
+    Punch, Drill and Tap the X-Axis
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assembling-the-x-and-z-axes" class="md-nav__link">
+    Assembling the X and Z Axes
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cr8-start" class="md-nav__link">
+    Cr8 Start
+  </a>
+  
+    <nav class="md-nav" aria-label="Cr8 Start">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cr8-assembly" class="md-nav__link">
+    Cr8 Assembly
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#y-axis-start" class="md-nav__link">
+    Y Axis Start
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#window" class="md-nav__link">
+    Window
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#spindle-mount" class="md-nav__link">
+    Spindle mount
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+<h1 id="assembly">Assembly</h1>
+<h2 id="table-of-contents">Table of Contents</h2>
+<ul>
+<li><a href="#Prep-Work">Prep Work</a><ul>
+<li><a href="#x-and-z-axis-sub">Tapping and Assembling the X and Z Axis Assembly</a></li>
+<li><a href="#assembling-the-z-and-z-Axes">Assembling the X and Z Axes</a></li>
+</ul>
+</li>
+<li><a href="#cr8-atart">Making the Cr8</a><ul>
+<li><a href="#cr8-assembly">Cr8 Assembly</a></li>
+</ul>
+</li>
+<li><a href="#y-axis-Start">Y Axis Start</a></li>
+<li><a href="#window">Window</a></li>
+<li><a href="#spindle-mount">Spindle Mount</a></li>
+</ul>
+<h2 id="prep-work">Prep Work</h2>
+<p>Read through all the directions before you start. You can batch out a few things, like drilling and tapping before you do assembly. Other items are more sensitive to order. We've tried to point that out when it may not be obvious. </p>
+<p>3d-print all your 3D printed parts per the <a href="../printing/">instructions</a>.</p>
+<p>Make sure you have two of all the jigs marked 2x in the Fusion360 Project. Pre-drill all the holes. Most can be predrilled with a 1/4" bit. Use an 1/8" bit for smaller holes. The only holes that should be pre-drilled smaller than 1/8" are for the M2 screws that hold in the limit switches.</p>
+<h2 id="x-and-z-axis-sub">X and Z axis Sub</h2>
+<h3 id="punch-drill-and-tap-the-x-axis">Punch, Drill and Tap the X-Axis</h3>
+<p><img alt="x_jig" src="../assets/images/screen_shots/x_jig.png" /></p>
+<p>Take a look at your 4x1.5x18" steel tube and see if one side is flatter along the 4" length than the other.</p>
+<p>If one side is noticeably flatter, set up your printed X-Axis jigs and linear rails on that side. </p>
+<p>We recommend using a 3.5 mm transfer punch to make a light mark for each of the holes, and then enlarging those holes slightly with a center punch. </p>
+<p>Drill all 16 holes for each rail, and tap with an M3 0.5 tap and plenty of tapping fluid. There is an M3 tap guide in the jigs folder on the github to help keep the tap straight. You may have to adjust the scale slightly depending on the settings and nozzle size on your 3D printer.</p>
+<p>At this point, you can start screwing down your rails to the tube with M3x10 SHCS and check if the rails are flat. It's not uncommon for the rails to both be tilted in toward the center of the axis. If this is the case (or if they are otherwise out of parallel with each other) check out the <a href="../shimming/">shimming</a> guide.</p>
+<p><img alt="x_bearings" src="../assets/images/screen_shots/X_bearings.png" /></p>
+<h3 id="assembling-the-x-and-z-axes">Assembling the X and Z Axes</h3>
+<p><img alt="x_z_plate" src="../assets/images/screen_shots/x_z_plate.png" /></p>
+<p>Use 16 M3x10 SHCS to bolt the Z to X Plate to the carriages.  </p>
+<p><img alt="x_leadnut" src="../assets/images/screen_shots/xleadnut_mount.png" /></p>
+<p>M3 nuts pressed into X Lead Nut Mount.
+M3x12 SHCS to bolt the X Lead Nut Mount to Z to X plate.</p>
+<p><img alt="Z_limit" src="../assets/images/screen_shots/z_limit.png" /></p>
+<p>M2x12mm bolts to attach the limit switch to the Z Linear Motor Mount. You cannot attach the limit switch once the Z Motor Mount is attached to the Z to X Plate.
+Solder wires before bolting. The "Normally Closed" (NC) configuration is recommended for best safety practices.
+Run wire for the Z limit switch through slot in the Z Linear Motor Mount. </p>
+<p><img alt="Z_motor" src="../assets/images/screen_shots/zmotor.png" /></p>
+<p>M3x10 screws into motor, through the Z Linear Motor Mount. You cannot attach the Z Motor after the Linear Motor Mount is attached to the Z to X Plate.<br />
+Make sure lead nut is mounted now, it's a real pain to mount it later. </p>
+<p><img alt="Z_motor_mount" src="../assets/images/screen_shots/zmotor_mount.png" /></p>
+<p>M4x12 SHCS to through the Z Linear Motor Mount to the Z to X Plate<br />
+Use M4 self tapping screws if using plastic plates</p>
+<p><img alt="Z_leadnut" src="../assets/images/screen_shots/Z_leadnut_mount.png" /></p>
+<p>Use M4x12 SHCS to attach the Z Lead Nut Mount to the Z Plate.
+Insert M5 nylock nuts into the Z Plate now. It is impossible to insert these once the Z Plate is mounted on the carriage. If they are loose, you can hold them in place with M5 screws until you attach the tram plate and router mount.</p>
+<p><img alt="Z_rails" src="../assets/images/screen_shots/Z_rails.png" /></p>
+<p>Use M3x10 SHCS, or M3 self-tapping screws to attach the Z Linear Rails to the Z Plate.</p>
+<p><img alt="Z_bearings" src="../assets/images/screen_shots/Z_bearings.png" /></p>
+<p>Put two Z bearings on each Z rail.</p>
+<p><img alt="Z_spacer" src="../assets/images/screen_shots/z_spacer.png" /></p>
+<p>Put 1 Z Spacer over each set of bearings.
+Drill out the bolt holes if needed to make sure the M3 bolts slip through cleanly  </p>
+<p><img alt="Z_plate" src="../assets/images/screen_shots/Z_plate.png" /></p>
+<p>Use M3x10 SHCS attach the Z Plate to the bearing blocks through the spacers.</p>
+<p><img alt="Z_leadnut" src="../assets/images/img/xz_sub5.jpg" /></p>
+<p>Use M3x10 SHCS tp attach the Z Lead Nut Mount to the Z Plate. Use the holes in Z Linear Motor Mount to slip allen key through and access bolts. You may have to rotate the lead screw to properly align the Z Lead Nut Mount in order to screw in the bolts.</p>
+<p><img alt="X_limit" src="../assets/images/screen_shots/x_limit_mount.png" /></p>
+<p>Solder the wires to the X limit switch and attach the X limit switch to the X Tube Left Idler with M2 screws. Do not attach the left X Tube Left Idlder to the X Tube at this time.</p>
+<h2 id="cr8-start">Cr8 Start</h2>
+<p>Check the length of your X-tube. Midwest Steel has a tendency to cut the tubes 1/8" long. So you'll either need to file that down, or increase the width of the front, back, top, and bottom by 1/8" to compensate. </p>
+<p>A soft recommendation is to get the crate parts cut on a CNC. There are a lot of holes to drill and it's easier to get them all aligned if it's done by a computer. That said, there are also large format <a href="../Panel_Drawings/pdfs">PDFs</a> to print and attach to the panels with spray adhesive that work as good guides. It's very possible to make it with hand-drilled holes in the crate, it's just harder.  </p>
+<h3 id="cr8-assembly">Cr8 Assembly</h3>
+<p><img alt="Cross Dowel" src="../assets/images/img/cross_dowel.jpg" /></p>
+<p>Use the dowel jig in the large holes on the frame drill the holes on the edge that the 1/4" bolts will go through and thread into the dowel nuts.</p>
+<p>Drill the holes about 10mm past the dowel nut hole to allow for bolt clearance</p>
+<p><img alt="Cr8" src="../assets/images/screen_shots/cr8_start.png" /></p>
+<p>Build up Cr8 with 3 sides like this, the right side (from the front), the bottom, and back.</p>
+<p><img alt="X-tension " src="../assets/images/screen_shots/threaded_rod.png" /></p>
+<p>Put lock washer, and nuts on one end of each of 2 threaded rods  </p>
+<p>Put the two threaded rods through the X holes on the right side of the crate.</p>
+<p>Lie the crate on the right side, with the threaded rod, washer, and nuts off the table, so it lies flat.</p>
+<p><img alt="X Cr8 " src="../assets/images/screen_shots/X_cr8.png" /></p>
+<p>Attach the X Tube Right Motor Cap to the right side of the X Tube. Sometimes the cap will need to be pounded in with a mallet, if it's tight, use a 2x4 over the plastic to avoid damaging it.</p>
+<p>Slide the X-Z Sub-Assembly over the threaded rods all the way down. This can be a little fiddly but this is the easiest way. Thread the threaded rod through the X Tube Left Idler cap, and then place the X Tube Left Idler cap over the open left end of the X Tube, use the 2x4 and mallet method to secure it.</p>
+<p><img alt="X Mounts" src="../assets/images/screen_shots/X_mounts.png" /></p>
+<p>Attach the left side of the crate. Add a lock washer and nut to each threaded rod on the left side. </p>
+<p><img alt="Cr8 Side 2 " src="../assets/images/screen_shots/side_2.png" /> </p>
+<h2 id="y-axis-start">Y Axis Start</h2>
+<p><img alt="Y Rail Punch" src="../assets/images/screen_shots/y_rail_jig.png" /></p>
+<p><img alt="y punch" src="../assets/images/img/y_punch1.jpg" /></p>
+<p><img alt="y punch" src="../assets/images/img/y_punch2.jpg" /></p>
+<p>We recommend using a 3.5 mm transfer punch to make a light mark for each of the holes, and then enlarging those holes slightly with a center punch. You can also use the rail punch jig to help align the holes.</p>
+<p>Drill, and tap all holes. Use the tap jig as before, if you would like some help keeping the tap straight.</p>
+<p><img alt="Y Axis Mounts" src="../assets/images/screen_shots/Y_mounts.png" /></p>
+<p><img alt="Y Axis Box" src="../assets/images/screen_shots/Y_axis_box.png" /></p>
+<p>Use M5x25 SHCS in the middle holes of the mounts, secure with a M5 lock nut on the opposite side.  </p>
+<p>Slide the last two threaded rods in the outer holes through the tubes. Ive found it can be helpful to lay the frame on it's back so you are droppin the threaded rod through the holes.  </p>
+<p>Like with the X tube, it's easiest to thread the threaded rod through only one plastic tube cap, and to leave the other side of the tube open. Once the threaded rod is through the tube cap, thread it through the other cap, and press that threaded tube cap on to the tubes. Attach the remaining cap and tubes to the crate. </p>
+<p><img alt="Thrust_bearing" src="../assets/images/screen_shots/Thrust_bearing.png" /></p>
+<p>Press 1 608 bearing into the front and back of each thrust block for the X and Y axes.  </p>
+<p><img alt="x lead" src="../assets/images/img/x_lead1.jpg" /></p>
+<p><img alt="x lead" src="../assets/images/img/x_lead2.jpg" /></p>
+<p><img alt="x lead" src="../assets/images/img/x_lead3.jpg" /></p>
+<p>Put the coupler on the motor shaft 10.5mm (ish) from the motor face</p>
+<p>Slide the locking shaft collar and one M8 washer onto the leadscrew and then slide the leadscrew through the thrust block.</p>
+<p>On the inside of the thrust block, slide the thrust bearing stack onto the lead screw and then tighten the coupler onto the lead screw.</p>
+<p>Use 4 - M3x50 SHCS to bolt through the thrust block to the motor</p>
+<p>Pull the lead screw away from the motor and press the shaft collar against the thrust block while tightening the set screw. - the goal is to remove the possibility for axial play. </p>
+<p><img alt="Y Axis limit" src="../assets/images/screen_shots/Y_limit.png" /></p>
+<p>Solder the wires for the limit switch and use an M2x12 SHCS to bolt it the thrust block with 2 small holes in the side.  </p>
+<p><img alt="Y Motor Stack" src="../assets/images/screen_shots/Y_stackup.png" /></p>
+<p>Put the coupler on the motor shaft 11.5mm (ish) from the motor face</p>
+<p>Slide the shaft collar and one M8 washer onto the leadscrew and then slide the leadscrew through the thrust block.</p>
+<p>On the inside of the thrust block, slide the thrust bearing stack onto the lead screw and then tighten the coupler onto the lead screw.</p>
+<p>Use 4 - M3x50 SHCS to bolt through the thrust block to the motor</p>
+<p>Pull the lead screw away from the motor and press the shaft collar against the thrust block while tightening the set screw. - the goal is to remove the possibility for axial play. </p>
+<p>Y Leadnut mount - press M3 nuts into the pockets and screw to the leadnut</p>
+<p><img alt="Y Axis Plate" src="../assets/images/screen_shots/Ybed.png" /></p>
+<p>Use M3x16 FHCS for all the carriages and lead nut mount. You may need M3x20 for the lead nut mount.</p>
+<p><img alt="Top" src="../assets/images/screen_shots/top.png" /></p>
+<p>Loosen all the screws on one side to make it easier to slide the top in and loosely bolt it in.  </p>
+<h2 id="window">Window</h2>
+<p><img alt="window mounts" src="../assets/images/screen_shots/window_mounts.png" /></p>
+<p>Screw all the window mounts to the Cr8 with 3/4" wood screws. Pay attention to the hinge mount holes on the top mounts. </p>
+<p><img alt="window components" src="../assets/images/screen_shots/window_components.png" /></p>
+<p>Use M3x12 SHCS to bolt through the window.</p>
+<p><img alt="window hinges" src="../assets/images/screen_shots/Hinge_top.png" /></p>
+<p>Use M3 plastic tap screws or M3 SHCS to bolt the hinges to the top mounts.</p>
+<p><img alt="window pin" src="../assets/images/screen_shots/hinge_pin.png" /></p>
+<p>Use M5x25 SHCS for hinge pins</p>
+<h2 id="spindle-mount">Spindle mount</h2>
+<p><img alt="Spindle Mount" src="../assets/images/screen_shots/spindle_tram.png" /></p>
+<p>Use M5x20 FHCS to bolt through the back of the tram plate to the spindle mount</p>
+<p><img alt="Spindle Brackets" src="../assets/images/img/bracket.png" /></p>
+<p>Add the 4 90-degree brackets that came with the spindle mount to the top and bottom of the mount and tram plate.</p>
+<p>Use 4 M5x16 bolts to bolt the tram plate to the Z Plate. One of the 4 M5 holes is on size and the other 3 are overside to allow for small adjustments of tilt on the spindle</p>
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../printing/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Print Settings" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Print Settings
+            </div>
+          </div>
+        </a>
+      
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.ed9748b7.min.js"></script>
+      
+    
+  </body>
+</html>
