@@ -4,6 +4,6 @@
 # Welcome to the Milk Cr8 CNC Project
 Home of the Milkcr8 Desktop CNC Machine!
 
-Check out the [documentation site](https://makers-on-tap.github.io/milkcr8-cnc/)
+Check out the [documentation site](https://www.milkcr8cnc.com)
 
 Documentation files are located under the `docs` folder
